@@ -13,6 +13,7 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y sensu
 
+COPY config/* /etc/sensu/conf.d
 
 CMD ["start", "api"]
 ENTRYPOINT ["/opt/sensu/bin/sensu-service"]
