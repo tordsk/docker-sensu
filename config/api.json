@@ -1,0 +1,7 @@
+{
+  "api": {
+    "host": "sensu-api-service",
+    "bind": "sensu-api-service",
+    "port": 4567
+  }
+}

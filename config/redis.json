@@ -1,0 +1,7 @@
+{
+  "redis": {
+    "host": "redis-test-redis",
+    "port": 6379,
+    "password": "secretpassword"
+  }
+}
